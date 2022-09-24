@@ -2347,7 +2347,8 @@ body.is-touch .main {
 /* Intro */
 
 #intro {
-    background: url("images/overlay.png"), url("../../images/1.jpg");
+    background: url("images/overlay.png"), 
+        url("https://uca9ded619e7f6d9376d2d1d9f93.previews.dropboxusercontent.com/p/thumb/ABqbb1_qJY9zPj66MOEn75VV6C3YJM2a0KS_IN9kZq7rnTymkaIZcLESwzjFok4B88FVq-5hkBpI_8AizxU9rV1MveOxRTdamJxtA7cVyf43yRii3LhkXAnr1WRVjmcXLXmvqZn5oowtBJnxdKQF8H-YZLPKgy0Y1sfE1kFHzN-TjHzbK0AxGNXpDVlgHamBkCoj_Q8Sx7T7DJB6CInB6zfUGyptRboEH2CXgCeAhZTDP2mwacMKEowMR9KWM2PKq8TfhCUsvgPuGNUWjmmK704KkkwWf6rgmw_87Dh8aq5rJOocZ5UQixPhG2w_PPuxKAlLkXYmXPG9P9NAB0XP7MNZyUcJVhRyI2WWRwNUkZcmaLqEaD3wtkcKmkZEWIyhndsv2mK_9jHUKO10wtSCUXDE0TH9Aqx0Q0nSid84p_0CcfatsZpFjR-x4f6gedxJbpCiZXTZm6eBqpCZt4M9iWAW2EzxPsRsJJbUw3Mr166-bA/p.jpeg");
     background-size: 256px 256px, cover;
     background-attachment: fixed, fixed;
     background-position: top left, bottom center;
