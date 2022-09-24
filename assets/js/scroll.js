@@ -2,10 +2,10 @@ var flag = false;
 
 function resize() {
     var $intro = document.getElementById("intro").offsetTop;
-    var $one = document.getElementById("one").offsetTop;
-    var $two = document.getElementById("two").offsetTop;
+    // var $one = document.getElementById("one").offsetTop;
+    // var $two = document.getElementById("two").offsetTop;
     var $work = document.getElementById("work").offsetTop;
-    return [$intro, $one, $two, $work];
+    return [$intro, "$one", "$two", $work];
 }
 
 let sized = resize();
@@ -20,8 +20,8 @@ aArr.forEach((el) => {
     let attr = el.getAttribute("data-go");
     el.addEventListener("click", () => {
         if (attr == "intro") return intro();
-        if (attr == "one") return one();
-        if (attr == "two") return two();
+        // if (attr == "one") return one();
+        // if (attr == "two") return two();
         if (attr == "work") return work();
     });
 });

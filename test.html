@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>칸반보드 테스트</title>
+
+        <style>
+            #flexibleBox {
+                width: 100%;
+                display: flex;
+                justify-content: start;
+                flex-wrap: wrap;
+                height: 300px;
+            }
+
+            #flexibleBox > div:nth-child(1) {
+                width: 35%;
+                border: 1px solid #999;
+                height: 20%;
+            }
+            #flexibleBox > div:nth-child(2) {
+                width: 35%;
+                border: 1px solid #999;
+                height: 30%;
+            }
+            #flexibleBox > div:nth-child(3) {
+                width: 35%;
+                border: 1px solid #999;
+                height: 40%;
+            }
+            #flexibleBox > div:nth-child(4) {
+                width: 35%;
+                border: 1px solid #999;
+                height: 50%;
+            }
+            #flexibleBox > div:nth-child(5) {
+                width: 35%;
+                border: 1px solid #999;
+                height: 60%;
+            }
+            #flexibleBox > div:nth-child(6) {
+                width: 35%;
+                border: 1px solid #999;
+                height: 70%;
+            }
+            #flexibleBox > div:nth-child(7) {
+                width: 35%;
+                border: 1px solid #999;
+                height: 80%;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="flexibleBox">
+            <div class="item01"></div>
+            <div class="item02"></div>
+            <div class="item03"></div>
+            <div class="item04"></div>
+            <div class="item05"></div>
+            <div class="item06"></div>
+            <div class="item07"></div>
+        </div>
+    </body>
+</html>
