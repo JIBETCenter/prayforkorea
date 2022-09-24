@@ -1579,28 +1579,28 @@ body.is-touch .poptrox-popup .closer {
 }
 
 .gallery article:nth-child(1) {
-    background-image: url("/images/mini\ card/1.png");
+    background-image: url("/images/mini_card/1.png");
 }
 .gallery article:nth-child(2) {
-    background-image: url("/images/mini\ card/2.png");
+    background-image: url("/images/mini_card/2.png");
 }
 .gallery article:nth-child(3) {
-    background-image: url("/images/mini\ card/3.png");
+    background-image: url("/images/mini_card/3.png");
 }
 .gallery article:nth-child(4) {
-    background-image: url("/images/mini\ card/4.png");
+    background-image: url("/images/mini_card/4.png");
 }
 .gallery article:nth-child(5) {
-    background-image: url("/images/mini\ card/5.png");
+    background-image: url("/images/mini_card/5.png");
 }
 .gallery article:nth-child(6) {
-    background-image: url("/images/mini\ card/6.png");
+    background-image: url("/images/mini_card/6.png");
 }
 .gallery article:nth-child(7) {
-    background-image: url("/images/mini\ card/7.png");
+    background-image: url("/images/mini_card/7.png");
 }
 .gallery article:nth-child(8) {
-    background-image: url("/images/mini\ card/8.png");
+    background-image: url("/images/mini_card/8.png");
     background-position: center;
 }
 
